@@ -1,5 +1,5 @@
 const axios = require('axios'); // Importing Axios
-let totalWeight = 0; // Setting variables with 0 values to be populated by API
+let totalWeight = 0; // Setting variables with 0 values to be populated by API results
 let totalHeight = 0;
 let totalPoke = 0;
 
@@ -27,11 +27,14 @@ axios
                     if ((totalPoke = allPokemon.length)) {
                         const averageWeight = totalWeight / totalPoke;
                         const averageHeight = totalHeight / totalPoke;
+                        // console.log('Total Weight:', totalWeight);
+                        // console.log('Total Height:', totalHeight);
+                        // console.log('Total Pokemons:', totalPoke);
                         // console.log('Average Weight:', averageWeight);
                         // console.log('Average Height:', averageHeight);
-                        console.log(
-                            `totalHeight: ${totalHeight}, totalWeight: ${totalWeight}\ntotalPoke: ${totalPoke}\naverageHeight: ${averageHeight}\naverageWeight: ${averageWeight}`
-                        );
+                        // console.log(
+                        //     `totalHeight: ${totalHeight}, totalWeight: ${totalWeight}\ntotalPoke: ${totalPoke}\naverageHeight: ${averageHeight}\naverageWeight: ${averageWeight}`
+                        // );
                     }
                 });
         });
