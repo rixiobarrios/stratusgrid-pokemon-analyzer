@@ -19,22 +19,6 @@ This project is the response to a technical challenge by StratusGrid. I will be 
 - Track the time it takes in seconds to execute the entire service and print to terminal following the averages
 - Add at least one unit test case to the project using a unit testing framework of your choice
 
-## Bugs
-
-1. 
-2.
-3.
-4.
-5.
-
-## Fixes
-
-1.
-2.
-3.
-4.
-5.
-
 **_Sources:_**
 
 [The RESTful Pokémon API](https://pokeapi.co/)
